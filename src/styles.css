@@ -1,0 +1,8 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0a0f;--bg2:#111118;--surface:#16161f;--surface2:#1e1e2a;--border:rgba(255,255,255,0.07);--accent:#e8ff47;--accent2:#ff6b35;--accent3:#7b61ff;--text:#f0f0f8;--muted:#6b6b80;--muted2:#9898aa;--font-display:'Syne',sans-serif;--font-body:'DM Mono',monospace;--font-serif:'Instrument Serif',serif}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;line-height:1.7;overflow-x:hidden;cursor:none}
+.cursor{width:12px;height:12px;background:var(--accent);border-radius:50%;position:fixed;top:0;left:0;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .2s,height .2s;mix-blend-mode:difference}
+.cursor-ring{width:36px;height:36px;border:1px solid rgba(232,255,71,0.4);border-radius:50%;position:fixed;top:0;left:0;pointer-events:none;z-index:9998;transform:translate(-50%,-50%)}
+a,button{cursor:none}
+::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:2px}
