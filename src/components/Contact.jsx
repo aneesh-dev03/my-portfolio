@@ -1,9 +1,29 @@
 import React from 'react'
 
 const socialLinks = [
-  { icon:'⚡', iconBg:'rgba(232,255,71,0.1)', label:'LeetCode', sub:'60+ problems solved', href:'https://leetcode.com/u/aneesh-dev03/' },
-  { icon:'🐙', iconBg:'rgba(255,255,255,0.05)', label:'GitHub', sub:'Check my repos', href:'https://github.com/aneesh-dev03' },
-  { icon:'💼', iconBg:'rgba(0,119,181,0.15)', label:'LinkedIn', sub:"Let's connect", href:'https://linkedin.com' },
+  {
+    icon:'⚡',
+    iconBg:'rgba(232,255,71,0.1)',
+    label:'LeetCode',
+    sub:'60+ problems solved',
+    href:'https://leetcode.com/aneesh-dev03/'
+  },
+
+  {
+    icon:'🐙',
+    iconBg:'rgba(255,255,255,0.05)',
+    label:'GitHub',
+    sub:'Check my repos',
+    href:'https://github.com/aneesh-dev03'
+  },
+
+  {
+    icon:'💼',
+    iconBg:'rgba(0,119,181,0.15)',
+    label:'LinkedIn',
+    sub:"Let's connect",
+    href:'https://www.linkedin.com/in/YOUR-USERNAME/'
+  },
 ]
 
 const Contact = () => {
