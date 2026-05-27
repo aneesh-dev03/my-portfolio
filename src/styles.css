@@ -6,3 +6,36 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 .cursor-ring{width:36px;height:36px;border:1px solid rgba(232,255,71,0.4);border-radius:50%;position:fixed;top:0;left:0;pointer-events:none;z-index:9998;transform:translate(-50%,-50%)}
 a,button{cursor:none}
 ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:2px}
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: inherit;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.project-link:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.project-link--live {
+  border-color: rgba(255,107,53,0.4);
+  color: rgb(255,107,53);
+}
+
+.project-link--live:hover {
+  background: rgba(255,107,53,0.1);
+}
