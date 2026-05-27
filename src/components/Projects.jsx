@@ -12,6 +12,16 @@ const projectsData = [
     live: '',
   },
   {
+    icon: '🎬',
+    iconBg: 'rgba(229,9,20,0.12)',
+    tag: 'In Progress',
+    title: 'Netflix Clone',
+    desc: 'A Netflix-inspired streaming platform UI with movie browsing, trailers, and authentication. Building with React and Firebase, featuring a real movie database via TMDB API.',
+    stack: ['React.js', 'Firebase', 'TMDB API', 'Tailwind CSS'],
+    github: '',
+    live: '',
+  },
+  {
     icon: '💡',
     iconBg: 'rgba(232,255,71,0.1)',
     tag: 'Coming Soon',
